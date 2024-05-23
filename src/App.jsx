@@ -10,8 +10,15 @@ function App() {
         title="Sip Happens Café"
         description="Please leave your feedback about our service by selecting one of the options below."
       />
-      <Options btnTxt1="Good" btnTxt2="Neutral" btnTxt3="Bad" />
-      <Feedback good="Good" neutral="Neutral" bad="Bad" />
+      <Options btnTxt1="Good" btnTxt2="Neutral" btnTxt3="Bad" updateFeedback />
+      <Feedback
+        good="Good"
+        neutral="Neutral"
+        bad="Bad"
+        goodFeedback={values.good}
+        neutralFeedback={values.neutral}
+        badFeedback={values.bad}
+      />
     </>
   );
 }
