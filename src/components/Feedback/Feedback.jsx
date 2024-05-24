@@ -1,5 +1,4 @@
 import css from "./Feedback.module.css";
-import Options from "../Options/Options";
 
 const Feedback = ({
   good,
