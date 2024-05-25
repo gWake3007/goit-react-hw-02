@@ -21,7 +21,7 @@ const Options = ({
         {btnTxt3}
       </button>
       {totalFeedback > 0 ? (
-        <button className={css.btn} onClick={() => resetFeedback}>
+        <button className={css.btn} onClick={() => resetFeedback()}>
           {btnReset}
         </button>
       ) : (

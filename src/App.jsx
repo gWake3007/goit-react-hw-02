@@ -15,10 +15,9 @@ function App() {
   };
   const resetFeedback = () => {
     setValues({
-      ...values,
-      good: (values.good = 0),
-      neutral: (values.neutral = 0),
-      bad: (values.bad = 0),
+      good: 0,
+      neutral: 0,
+      bad: 0,
     });
   };
   const totalFeedback = values.good + values.neutral + values.bad;
