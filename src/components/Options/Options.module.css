@@ -1,0 +1,20 @@
+.container {
+  min-width: 1200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: grey;
+  padding: 10px 0px;
+}
+
+.btn {
+  color: #e7e7e7;
+  background-color: rgb(52, 50, 50);
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.btn::first-letter {
+  text-transform: uppercase;
+}
